@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "CASA0023 Learning Diary"
+  title: "Delineation of perceptual Neighbourhoods - Geo-text location modelling"
   # author: "Vlad Tesniere"
   favicon: "img/UCL_square.jpeg"
   navbar:
@@ -16,7 +16,7 @@ book:
     right:
       - icon: github
   sidebar:
-    title: "CASA0023 Learning Diary"
+    title: "GEOG0105"
     style: docked
     reader-mode: true
   repo-url: https://github.com/vtesniere/CASA0023_book
