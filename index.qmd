@@ -7,3 +7,5 @@ This page serves as a platform to view the Maps for the final MSc dissertation p
 2.  The second map output provides the boundaries created through Zero-shot encoding but uses Output Areas (OAs) instead of LSOAs.
 
 3.  The Third illustrates results from Unsupervised Topic Modelling where we let the algorithm directly recognise trends in the data to make up clusters of areas, we serve as potential basis for neighbourhood delineation proposals.
+
+4.  The fourth illustrate KDE Zero-shot historical examples, with data from 1995 and 2015 with the wish to show the evolution of these areas over time. This is a work in progress but aims to illustrate the temporal importance when defining a neighbourhood

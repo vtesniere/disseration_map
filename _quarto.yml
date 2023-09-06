@@ -30,6 +30,7 @@ book:
     - intro.qmd
     - OA.qmd
     - summary.qmd
+    - historical.qmd
     #- references.qmd
 
 #bibliography: references.bib
