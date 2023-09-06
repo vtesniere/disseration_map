@@ -129,12 +129,17 @@ gtag('config', 'G-5LZK055F2X', { 'anonymize_ip': true});
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">KDE Visualisation for large scale implementation - Zero-Shot classification</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with LSOA based boundaries)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Visualisation for large scale implementation - Unsupervised Clustering classification with subset</span></a>
+  <a href="./OA.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with OA based boundaries)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Visualisation for large scale implementation - Unsupervised Clustering classification with subset</span></a>
   </div>
 </li>
     </ul>
@@ -174,8 +179,9 @@ gtag('config', 'G-5LZK055F2X', { 'anonymize_ip': true});
 <h1 class="unnumbered">Presentation of the Work</h1>
 <p>This page serves as a platform to view the Maps for the final MSc dissertation project, titled: Delineation of perceptual Neighbourhoods in the housing market - Geo-text location modelling through Classification and Unsupervised Clustering.</p>
 <ol type="1">
-<li><p>The First Page provides the prototype output for the Greater London Map proposition, which leverages Zero-Shot encoding constructed through the BART pre-trained models. We construct the boundaries through KDE (Kernel Density Estimates) area prediction, and then pair these with geo-demographically granular pre-constructed areas, in this case, Output Areas (OA) provided in the 2021 UK Census.</p></li>
-<li><p>The Second illustrated results from Unsupervised Topic Modelling where we let the algorithm directly recognise trends in the data to make up clusters of areas, we serve as potential basis for neighbourhood delineation proposals.</p></li>
+<li><p>The First Page provides the prototype output for the Greater London Map proposition, which leverages Zero-Shot encoding constructed through the BART pre-trained models. We construct the boundaries through KDE (Kernel Density Estimates) area prediction, and then pair these with geo-demographically granular pre-constructed areas, in this case, Lower Super-Output Areas (LSOA) provided in the 2021 UK Census.</p></li>
+<li><p>The second map output provides the boundaries created through Zero-shot encoding but uses Output Areas (OAs) instead of LSOAs.</p></li>
+<li><p>The Third illustrates results from Unsupervised Topic Modelling where we let the algorithm directly recognise trends in the data to make up clusters of areas, we serve as potential basis for neighbourhood delineation proposals.</p></li>
 </ol>
 
 
@@ -320,7 +326,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./intro.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">KDE Visualisation for large scale implementation - Zero-Shot classification</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with LSOA based boundaries)</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
