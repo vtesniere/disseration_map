@@ -1,3 +1,4 @@
 # Name Entity Recognition (NER)
+Selection of areas on the top right
 
 <iframe id="serviceFrameSend" src="NER_map.html" width="1200" height="600" frameborder="50">
