@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Delineation of perceptual Neighbourhoods - Geo-text location modelling – 2&nbsp; KDE Visualisation for Zero-Shot classification (with OA based boundaries)</title>
+<title>Delineation of perceptual Neighbourhoods - Geo-text location modelling – 6&nbsp; Name Entity Recognition (NER)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="next">
-<link href="./intro.html" rel="prev">
+<link href="./historical.html" rel="prev">
 <link href="./img/UCL_square.jpeg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -94,7 +93,7 @@ gtag('config', 'G-5LZK055F2X', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/vtesniere/CASA0023_book"><i class="bi bi-github" role="img" aria-label="Source Code">
+    <a class="nav-link" href="https://github.com/vtesniere/CASA0023_book"><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -105,7 +104,7 @@ gtag('config', 'G-5LZK055F2X', { 'anonymize_ip': true});
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with OA based boundaries)</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Name Entity Recognition (NER)</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -135,7 +134,7 @@ gtag('config', 'G-5LZK055F2X', { 'anonymize_ip': true});
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./OA.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with OA based boundaries)</span></a>
+  <a href="./OA.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with OA based boundaries)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -155,7 +154,7 @@ gtag('config', 'G-5LZK055F2X', { 'anonymize_ip': true});
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./NER.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Name Entity Recognition (NER)</span></a>
+  <a href="./NER.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Name Entity Recognition (NER)</span></a>
   </div>
 </li>
     </ul>
@@ -170,7 +169,7 @@ gtag('config', 'G-5LZK055F2X', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with OA based boundaries)</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Name Entity Recognition (NER)</span></h1>
 </div>
 
 
@@ -185,12 +184,12 @@ gtag('config', 'G-5LZK055F2X', { 'anonymize_ip': true});
 
 </header>
 
-<iframe id="serviceFrameSend" src="KDE_boundaries_V1_OA_1.html" width="1200" height="600" frameborder="50">
+<iframe id="serviceFrameSend" src="NER_map.html" width="1200" height="600" frameborder="50">
 <div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden" data-render-id="quarto-int-sidebar-title">GEOG0105</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Delineation of perceptual Neighbourhoods - Geo-text location modelling</span> <span class="hidden" data-render-id="quarto-int-next"><span class="chapter-number">3</span>  <span class="chapter-title">Visualisation for large scale implementation - Unsupervised Clustering classification with subset</span></span> <span class="hidden" data-render-id="quarto-int-prev"><span class="chapter-number">1</span>  <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with LSOA based boundaries)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/index.html">Presentation of the Work</span> <span class="hidden" data-render-id="quarto-int-sidebar:/intro.html"><span class="chapter-number">1</span>  <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with LSOA based boundaries)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/OA.html"><span class="chapter-number">2</span>  <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with OA based boundaries)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/summary.html"><span class="chapter-number">3</span>  <span class="chapter-title">Visualisation for large scale implementation - Unsupervised Clustering classification with subset</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/Unsupervised_IMD.html"><span class="chapter-number">4</span>  <span class="chapter-title">Unsupervised Clustering with Deprivation Scores</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/historical.html"><span class="chapter-number">5</span>  <span class="chapter-title">KDE Visualisation for Zero-Shot classification historical - 2015</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/NER.html"><span class="chapter-number">6</span>  <span class="chapter-title">Name Entity Recognition (NER)</span></span></p>
+<p><span class="hidden" data-render-id="quarto-int-sidebar-title">GEOG0105</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Delineation of perceptual Neighbourhoods - Geo-text location modelling</span> <span class="hidden" data-render-id="quarto-int-prev"><span class="chapter-number">5</span>  <span class="chapter-title">KDE Visualisation for Zero-Shot classification historical - 2015</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/index.html">Presentation of the Work</span> <span class="hidden" data-render-id="quarto-int-sidebar:/intro.html"><span class="chapter-number">1</span>  <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with LSOA based boundaries)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/OA.html"><span class="chapter-number">2</span>  <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with OA based boundaries)</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/summary.html"><span class="chapter-number">3</span>  <span class="chapter-title">Visualisation for large scale implementation - Unsupervised Clustering classification with subset</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/Unsupervised_IMD.html"><span class="chapter-number">4</span>  <span class="chapter-title">Unsupervised Clustering with Deprivation Scores</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/historical.html"><span class="chapter-number">5</span>  <span class="chapter-title">KDE Visualisation for Zero-Shot classification historical - 2015</span></span> <span class="hidden" data-render-id="quarto-int-sidebar:/NER.html"><span class="chapter-number">6</span>  <span class="chapter-title">Name Entity Recognition (NER)</span></span></p>
 </div>
 <div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden" data-render-id="quarto-metatitle">Delineation of perceptual Neighbourhoods - Geo-text location modelling - <span class="chapter-number">2</span>  <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with OA based boundaries)</span></span> <span class="hidden" data-render-id="quarto-twittercardtitle">Delineation of perceptual Neighbourhoods - Geo-text location modelling - <span class="chapter-number">2</span>  <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with OA based boundaries)</span></span> <span class="hidden" data-render-id="quarto-ogcardtitle">Delineation of perceptual Neighbourhoods - Geo-text location modelling - <span class="chapter-number">2</span>  <span class="chapter-title">KDE Visualisation for Zero-Shot classification (with OA based boundaries)</span></span> <span class="hidden" data-render-id="quarto-metasitename">Delineation of perceptual Neighbourhoods - Geo-text location modelling</span></p>
+<p><span class="hidden" data-render-id="quarto-metatitle">Delineation of perceptual Neighbourhoods - Geo-text location modelling - <span class="chapter-number">6</span>  <span class="chapter-title">Name Entity Recognition (NER)</span></span> <span class="hidden" data-render-id="quarto-twittercardtitle">Delineation of perceptual Neighbourhoods - Geo-text location modelling - <span class="chapter-number">6</span>  <span class="chapter-title">Name Entity Recognition (NER)</span></span> <span class="hidden" data-render-id="quarto-ogcardtitle">Delineation of perceptual Neighbourhoods - Geo-text location modelling - <span class="chapter-number">6</span>  <span class="chapter-title">Name Entity Recognition (NER)</span></span> <span class="hidden" data-render-id="quarto-metasitename">Delineation of perceptual Neighbourhoods - Geo-text location modelling</span></p>
 </div>
 
 </main> <!-- /main -->
@@ -329,14 +328,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a  href="/intro.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class='chapter-number'>1</span>  <span class='chapter-title'>KDE Visualisation for Zero-Shot classification (with LSOA based boundaries)</span></span>
+      <a  href="/historical.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class='chapter-number'>5</span>  <span class='chapter-title'>KDE Visualisation for Zero-Shot classification historical - 2015</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a  href="/summary.html" class="pagination-link">
-        <span class="nav-page-text"><span class='chapter-number'>3</span>  <span class='chapter-title'>Visualisation for large scale implementation - Unsupervised Clustering classification with subset</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

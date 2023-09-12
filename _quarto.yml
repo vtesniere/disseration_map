@@ -30,7 +30,9 @@ book:
     - intro.qmd
     - OA.qmd
     - summary.qmd
+    - Unsupervised_IMD.qmd
     - historical.qmd
+    - NER.qmd
     #- references.qmd
 
 #bibliography: references.bib

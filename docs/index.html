@@ -93,7 +93,7 @@ gtag('config', 'G-5LZK055F2X', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/vtesniere/CASA0023_book"><i class="bi bi-github" role="img" aria-label="Source Code">
+    <a class="nav-link" href="https://github.com/vtesniere/CASA0023_book"><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -142,6 +142,21 @@ gtag('config', 'G-5LZK055F2X', { 'anonymize_ip': true});
   <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Visualisation for large scale implementation - Unsupervised Clustering classification with subset</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Unsupervised_IMD.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Unsupervised Clustering with Deprivation Scores</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./historical.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">KDE Visualisation for Zero-Shot classification historical - 2015</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./NER.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Name Entity Recognition (NER)</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -182,7 +197,9 @@ gtag('config', 'G-5LZK055F2X', { 'anonymize_ip': true});
 <li><p>The First Page provides the prototype output for the Greater London Map proposition, which leverages Zero-Shot encoding constructed through the BART pre-trained models. We construct the boundaries through KDE (Kernel Density Estimates) area prediction, and then pair these with geo-demographically granular pre-constructed areas, in this case, Lower Super-Output Areas (LSOA) provided in the 2021 UK Census.</p></li>
 <li><p>The second map output provides the boundaries created through Zero-shot encoding but uses Output Areas (OAs) instead of LSOAs.</p></li>
 <li><p>The Third illustrates results from Unsupervised Topic Modelling where we let the algorithm directly recognise trends in the data to make up clusters of areas, we serve as potential basis for neighbourhood delineation proposals.</p></li>
-<li><p>The fourth illustrate KDE Zero-shot historical examples, with data from 1995 and 2015 with the wish to show the evolution of these areas over time. This is a work in progress but aims to illustrate the temporal importance when defining a neighbourhood</p></li>
+<li><p>The Fourth adds a geo-demographic dimension to the analysis of the unsupervised clusters. We add a dispersion of LSOA with colours based on their deprivation decile and we see general trends in our clusters where less detail is available in more deprived areas</p></li>
+<li><p>The fifth illustrate KDE Zero-shot historical examples, with data from 2015 with the wish to show the evolution of these areas over time. This is a work in progress but aims to illustrate the temporal importance when defining a neighbourhood. We have additional results since 1995 that can really support this evolution</p></li>
+<li><p>The Final map is our attempt using Name entity recognition for completely unsupervised boundary delineation. Although certain areas are accurate, it has many incorrect areas. Although interesting to illustrate the potential of this method, we do not develop it further</p></li>
 </ol>
 
 
